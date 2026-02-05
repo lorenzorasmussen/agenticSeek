@@ -20,7 +20,7 @@ torch>=2.4.1
 ollama>=0.4.7
 scipy>=1.9.3
 soundfile>=0.13.1
-protobuf>=3.20.3
+protobuf>=6.33.5
 termcolor>=2.4.0
 pypdf>=5.4.0
 ipython>=8.13.0
@@ -46,3 +46,4 @@ openai
 sniffio
 ordered_set
 pypinyin
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
